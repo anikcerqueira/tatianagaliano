@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Book Grátis</title>
+</head>
+<body>
+
+    <div class="header-second ">
+        <div class="navbar">
+            <div class="logo"><a href="./index.html"><img src="./assets/images/logo.png" alt="logo" width="180px"></a></div>
+            <ul class="links">
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./quemsoueu.html">Quem sou eu?</a></li>
+                <li><a href="./metodo.html">Método</a></li>
+            </ul>
+            <a href="https://wa.me/11968581122" target="_blank" class="action-btn">Agende agora!</a>
+            <div class="toggle_btn">
+<img src="./assets/images/bars.png" alt="" width="25px">
+            </div>
+        </div>
+
+        <div class="dropdown_menu">
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./quemsoueu.html">Quem sou eu?</a></li>
+            <li><a href="./metodo.html">Método</a></li>
+            <li><a href="https://wa.me/11968581122" target="_blank" class="action-btn">Agende agora!</a></li>
+        </div>
+    </div>
+    
+
+    <footer>
+        @2024 Tatiana Galiano - Nutricionista Comportamental. <br /><span class="bold">Todos os direitos reservados.</span>
+            </footer>
+        
+            <script>
+                const toggleBtn = document.querySelector('.toggle_btn')
+                const toggleBtnImg = document.querySelector('.toggle_btn img')
+                const dropDownMenu = document.querySelector('.dropdown_menu')
+        
+                toggleBtn.onclick = function () {
+                    dropDownMenu.classList.toggle('open')
+                    const isOpen = dropDownMenu.contains('open')
+                }
+            </script>
+            
+</body>
+</html>

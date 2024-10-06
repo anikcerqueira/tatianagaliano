@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tatiana Galiano - Nutricionista Comportamental</title>
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="./index.html"><img src="./assets/images/logo.png" alt="logo" width="180px"></a></div>
+            <ul class="links">
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./quemsoueu.html">Quem sou eu?</a></li>
+                <li><a href="./metodo.html">Método</a></li>
+            </ul>
+            <a href="https://wa.me/11968581122" target="_blank" class="action-btn">Agende agora!</a>
+            <div class="toggle_btn">
+<img src="./assets/images/bars.png" alt="" width="25px">
+            </div>
+        </div>
+
+        <div id="hero">
+            <h1>olá, sou tatiana galiano;</h1>
+            <p>Eu estou aqui para ajudar você a alcançar uma <span class="bold">relação saudável</span> e <span class="bold">equilibrada</span> ​com a comida.
+                 Minha abordagem é <span class="bold">totalmente livre de dietas restritivas</span>.
+                 Acredito que <span class="bold">comer deve ser um prazer</span>, não um sofrimento.
+                 No meu consultório, <span class="bold">trabalhamos juntas</span> para entender seus hábitos ​alimentares e como eles 
+                 impactam sua vida.
+                 Meu objetivo é proporcionar um atendimento personalizado, <span class="bold">focado no seu ​bem-estar</span> e na 
+                 <span class="bold">construção de uma relação positiva com a comida</span>. Descubra ​como posso <span class="bold">ajudar</span> você a encontrar 
+                    o <span class="bold">equilíbrio e o prazer em sua ​alimentação.</span></p>
+
+            </div>
+
+        <div class="dropdown_menu">
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./quemsoueu.html">Quem sou eu?</a></li>
+            <li><a href="./metodo.html">Método</a></li>
+            <li><a href="https://wa.me/11968581122" target="_blank" class="action-btn">Agende agora!</a></li>
+        </div>
+    </header>
+
+    <main>
+
+        <h2>Escolha como mudar:</h2>
+
+        <div class="content">
+
+        <div class="contentclass">
+            <a href="./cuidado-nutritivo.html"><img src=".//assets/images/cuidado.jpg" alt="Tatiana segurando uma xicara"></a>
+            <a href="./cuidado-nutritivo.html"><h3>Cuidado Nutritivo</h3></a>
+            <p>A <span class="bold">escolha perfeita</span> para quem quer iniciar ​sua jornada de 
+                autocuidado com relação à ​comida, <span class="bold">sem dietas restritivas</span>. 
+                Agende aqui ​uma consulta se você <span class="bold">busca uma ​alimentação mais saudável</span>, 
+                mas não quer ​abrir mão dos alimentos que você ama.</p>
+        </div>
+
+        <div class="contentclass">
+            <a href="./ebook.html"><img src=".//assets/images/surpresa.jpg" alt="Tatiana segurando um livro"></a>
+            <a href="./ebook.html"><h3>E-book grátis: saúde e sabor</h3></a>
+            <p><span class="bold">Cuidar da saúde nunca foi tão saboroso!</span>
+                Aqui você vai descobrir como a <span class="bold">alimentação ​saudável</span> pode ser cheia de <span class="bold">sabor e prazer</span>. 
+                ​Vamos juntas criar <span class="bold">refeições irresistíveis</span> que ​vão te fazer sentir bem de dentro para fora, 
+                ​trazendo praticidade para o seu dia.</p>
+        </div>
+    </div>
+    </main>
+
+    <section class="nutridamente">
+        <a href="./metodo.html"><h2>Método NutridaMente</h2></a>
+        <p>Um método que te ensina a melhorar sua relação com a comida.</p>
+    </section>
+    
+    <footer>
+@2024 Tatiana Galiano - Nutricionista Comportamental. <br /><span class="bold">Todos os direitos reservados.</span>
+    </footer>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnImg = document.querySelector('.toggle_btn img')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.contains('open')
+        }
+    </script>
+
+
+</body>
+</html>
